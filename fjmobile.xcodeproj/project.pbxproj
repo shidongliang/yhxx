@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA41BB88163A313B0079595B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA41BB87163A313B0079595B /* UIKit.framework */; };
+		FA41BB8A163A313B0079595B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA41BB89163A313B0079595B /* Foundation.framework */; };
+		FA41BB8C163A313B0079595B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA41BB8B163A313B0079595B /* CoreGraphics.framework */; };
+		FA41BB92163A313B0079595B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA41BB90163A313B0079595B /* InfoPlist.strings */; };
+		FA41BB94163A313B0079595B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41BB93163A313B0079595B /* main.m */; };
+		FA41BB98163A313B0079595B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41BB97163A313B0079595B /* AppDelegate.m */; };
+		FA41BB9A163A313B0079595B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41BB99163A313B0079595B /* Default.png */; };
+		FA41BB9C163A313B0079595B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41BB9B163A313B0079595B /* Default@2x.png */; };
+		FA41BB9E163A313B0079595B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA41BB9D163A313B0079595B /* Default-568h@2x.png */; };
+		FA41BBA1163A313B0079595B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA41BB9F163A313B0079595B /* MainStoryboard.storyboard */; };
+		FA41BBA4163A313B0079595B /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA41BBA3163A313B0079595B /* HomePageViewController.m */; };
+		FAD76905163A5FF700A0A667 /* chong_zhi_jiao_fei.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD768FD163A5FF700A0A667 /* chong_zhi_jiao_fei.png */; };
+		FAD76906163A5FF700A0A667 /* hua_fei_zhang_dan.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD768FE163A5FF700A0A667 /* hua_fei_zhang_dan.png */; };
+		FAD76907163A5FF700A0A667 /* ji_fen_mzhi.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD768FF163A5FF700A0A667 /* ji_fen_mzhi.png */; };
+		FAD76908163A5FF700A0A667 /* liu_liang_cha_xun.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76900163A5FF700A0A667 /* liu_liang_cha_xun.png */; };
+		FAD76909163A5FF700A0A667 /* tao_can_cha_xun.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76901163A5FF700A0A667 /* tao_can_cha_xun.png */; };
+		FAD7690A163A5FF700A0A667 /* wo_de_xin_xi.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76902163A5FF700A0A667 /* wo_de_xin_xi.png */; };
+		FAD7690B163A5FF700A0A667 /* yi_kai_ye_wu.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76903163A5FF700A0A667 /* yi_kai_ye_wu.png */; };
+		FAD7690C163A5FF700A0A667 /* yu_e_cha_xun.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76904163A5FF700A0A667 /* yu_e_cha_xun.png */; };
+		FAD76915163A66EA00A0A667 /* logo_02.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD7690E163A66EA00A0A667 /* logo_02.png */; };
+		FAD76916163A66EA00A0A667 /* 安卓（背景）.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD7690F163A66EA00A0A667 /* 安卓（背景）.png */; };
+		FAD76917163A66EA00A0A667 /* 背景2_03.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76910163A66EA00A0A667 /* 背景2_03.png */; };
+		FAD76918163A66EA00A0A667 /* 背景头部.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76911163A66EA00A0A667 /* 背景头部.png */; };
+		FAD76919163A66EA00A0A667 /* 登陆页（背景）.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76912163A66EA00A0A667 /* 登陆页（背景）.png */; };
+		FAD7691A163A66EA00A0A667 /* 登录_03.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76913163A66EA00A0A667 /* 登录_03.png */; };
+		FAD7691B163A66EA00A0A667 /* 退出.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD76914163A66EA00A0A667 /* 退出.png */; };
+		FAD76922163A72FB00A0A667 /* PhoneBillViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD76921163A72FB00A0A667 /* PhoneBillViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA41BB83163A313B0079595B /* fjmobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fjmobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA41BB87163A313B0079595B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA41BB89163A313B0079595B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA41BB8B163A313B0079595B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA41BB8F163A313B0079595B /* fjmobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fjmobile-Info.plist"; sourceTree = "<group>"; };
+		FA41BB91163A313B0079595B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA41BB93163A313B0079595B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA41BB95163A313B0079595B /* fjmobile-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fjmobile-Prefix.pch"; sourceTree = "<group>"; };
+		FA41BB96163A313B0079595B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA41BB97163A313B0079595B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA41BB99163A313B0079595B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FA41BB9B163A313B0079595B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FA41BB9D163A313B0079595B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FA41BBA0163A313B0079595B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FA41BBA2163A313B0079595B /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		FA41BBA3163A313B0079595B /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		FAD768FD163A5FF700A0A667 /* chong_zhi_jiao_fei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chong_zhi_jiao_fei.png; sourceTree = "<group>"; };
+		FAD768FE163A5FF700A0A667 /* hua_fei_zhang_dan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hua_fei_zhang_dan.png; sourceTree = "<group>"; };
+		FAD768FF163A5FF700A0A667 /* ji_fen_mzhi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ji_fen_mzhi.png; sourceTree = "<group>"; };
+		FAD76900163A5FF700A0A667 /* liu_liang_cha_xun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = liu_liang_cha_xun.png; sourceTree = "<group>"; };
+		FAD76901163A5FF700A0A667 /* tao_can_cha_xun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tao_can_cha_xun.png; sourceTree = "<group>"; };
+		FAD76902163A5FF700A0A667 /* wo_de_xin_xi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo_de_xin_xi.png; sourceTree = "<group>"; };
+		FAD76903163A5FF700A0A667 /* yi_kai_ye_wu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yi_kai_ye_wu.png; sourceTree = "<group>"; };
+		FAD76904163A5FF700A0A667 /* yu_e_cha_xun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yu_e_cha_xun.png; sourceTree = "<group>"; };
+		FAD7690E163A66EA00A0A667 /* logo_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_02.png; sourceTree = "<group>"; };
+		FAD7690F163A66EA00A0A667 /* 安卓（背景）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "安卓（背景）.png"; sourceTree = "<group>"; };
+		FAD76910163A66EA00A0A667 /* 背景2_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景2_03.png"; sourceTree = "<group>"; };
+		FAD76911163A66EA00A0A667 /* 背景头部.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景头部.png"; sourceTree = "<group>"; };
+		FAD76912163A66EA00A0A667 /* 登陆页（背景）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登陆页（背景）.png"; sourceTree = "<group>"; };
+		FAD76913163A66EA00A0A667 /* 登录_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录_03.png"; sourceTree = "<group>"; };
+		FAD76914163A66EA00A0A667 /* 退出.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "退出.png"; sourceTree = "<group>"; };
+		FAD76920163A72FB00A0A667 /* PhoneBillViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneBillViewController.h; path = ViewController/PhoneBillViewController.h; sourceTree = "<group>"; };
+		FAD76921163A72FB00A0A667 /* PhoneBillViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneBillViewController.m; path = ViewController/PhoneBillViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA41BB80163A313B0079595B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41BB88163A313B0079595B /* UIKit.framework in Frameworks */,
+				FA41BB8A163A313B0079595B /* Foundation.framework in Frameworks */,
+				FA41BB8C163A313B0079595B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA41BB78163A313B0079595B = {
+			isa = PBXGroup;
+			children = (
+				FA41BB8D163A313B0079595B /* fjmobile */,
+				FA41BB86163A313B0079595B /* Frameworks */,
+				FA41BB84163A313B0079595B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA41BB84163A313B0079595B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA41BB83163A313B0079595B /* fjmobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA41BB86163A313B0079595B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA41BB87163A313B0079595B /* UIKit.framework */,
+				FA41BB89163A313B0079595B /* Foundation.framework */,
+				FA41BB8B163A313B0079595B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA41BB8D163A313B0079595B /* fjmobile */ = {
+			isa = PBXGroup;
+			children = (
+				FAD768FB163A5FF700A0A667 /* ImgResources */,
+				FA41BB96163A313B0079595B /* AppDelegate.h */,
+				FA41BB97163A313B0079595B /* AppDelegate.m */,
+				FA41BB9F163A313B0079595B /* MainStoryboard.storyboard */,
+				FAD76920163A72FB00A0A667 /* PhoneBillViewController.h */,
+				FAD76921163A72FB00A0A667 /* PhoneBillViewController.m */,
+				FA41BBA2163A313B0079595B /* HomePageViewController.h */,
+				FA41BBA3163A313B0079595B /* HomePageViewController.m */,
+				FA41BB8E163A313B0079595B /* Supporting Files */,
+			);
+			path = fjmobile;
+			sourceTree = "<group>";
+		};
+		FA41BB8E163A313B0079595B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA41BB8F163A313B0079595B /* fjmobile-Info.plist */,
+				FA41BB90163A313B0079595B /* InfoPlist.strings */,
+				FA41BB93163A313B0079595B /* main.m */,
+				FA41BB95163A313B0079595B /* fjmobile-Prefix.pch */,
+				FA41BB99163A313B0079595B /* Default.png */,
+				FA41BB9B163A313B0079595B /* Default@2x.png */,
+				FA41BB9D163A313B0079595B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD768FB163A5FF700A0A667 /* ImgResources */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7690D163A669900A0A667 /* LoginPageUIElements */,
+				FAD768FC163A5FF700A0A667 /* HomePageButton */,
+			);
+			path = ImgResources;
+			sourceTree = "<group>";
+		};
+		FAD768FC163A5FF700A0A667 /* HomePageButton */ = {
+			isa = PBXGroup;
+			children = (
+				FAD768FD163A5FF700A0A667 /* chong_zhi_jiao_fei.png */,
+				FAD768FE163A5FF700A0A667 /* hua_fei_zhang_dan.png */,
+				FAD768FF163A5FF700A0A667 /* ji_fen_mzhi.png */,
+				FAD76900163A5FF700A0A667 /* liu_liang_cha_xun.png */,
+				FAD76901163A5FF700A0A667 /* tao_can_cha_xun.png */,
+				FAD76902163A5FF700A0A667 /* wo_de_xin_xi.png */,
+				FAD76903163A5FF700A0A667 /* yi_kai_ye_wu.png */,
+				FAD76904163A5FF700A0A667 /* yu_e_cha_xun.png */,
+			);
+			path = HomePageButton;
+			sourceTree = "<group>";
+		};
+		FAD7690D163A669900A0A667 /* LoginPageUIElements */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7690E163A66EA00A0A667 /* logo_02.png */,
+				FAD7690F163A66EA00A0A667 /* 安卓（背景）.png */,
+				FAD76910163A66EA00A0A667 /* 背景2_03.png */,
+				FAD76911163A66EA00A0A667 /* 背景头部.png */,
+				FAD76912163A66EA00A0A667 /* 登陆页（背景）.png */,
+				FAD76913163A66EA00A0A667 /* 登录_03.png */,
+				FAD76914163A66EA00A0A667 /* 退出.png */,
+			);
+			path = LoginPageUIElements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA41BB82163A313B0079595B /* fjmobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA41BBB2163A313B0079595B /* Build configuration list for PBXNativeTarget "fjmobile" */;
+			buildPhases = (
+				FA41BB7F163A313B0079595B /* Sources */,
+				FA41BB80163A313B0079595B /* Frameworks */,
+				FA41BB81163A313B0079595B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fjmobile;
+			productName = fjmobile;
+			productReference = FA41BB83163A313B0079595B /* fjmobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA41BB7A163A313B0079595B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = sinovatech;
+			};
+			buildConfigurationList = FA41BB7D163A313B0079595B /* Build configuration list for PBXProject "fjmobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA41BB78163A313B0079595B;
+			productRefGroup = FA41BB84163A313B0079595B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA41BB82163A313B0079595B /* fjmobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA41BB81163A313B0079595B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41BB92163A313B0079595B /* InfoPlist.strings in Resources */,
+				FA41BB9A163A313B0079595B /* Default.png in Resources */,
+				FA41BB9C163A313B0079595B /* Default@2x.png in Resources */,
+				FA41BB9E163A313B0079595B /* Default-568h@2x.png in Resources */,
+				FA41BBA1163A313B0079595B /* MainStoryboard.storyboard in Resources */,
+				FAD76905163A5FF700A0A667 /* chong_zhi_jiao_fei.png in Resources */,
+				FAD76906163A5FF700A0A667 /* hua_fei_zhang_dan.png in Resources */,
+				FAD76907163A5FF700A0A667 /* ji_fen_mzhi.png in Resources */,
+				FAD76908163A5FF700A0A667 /* liu_liang_cha_xun.png in Resources */,
+				FAD76909163A5FF700A0A667 /* tao_can_cha_xun.png in Resources */,
+				FAD7690A163A5FF700A0A667 /* wo_de_xin_xi.png in Resources */,
+				FAD7690B163A5FF700A0A667 /* yi_kai_ye_wu.png in Resources */,
+				FAD7690C163A5FF700A0A667 /* yu_e_cha_xun.png in Resources */,
+				FAD76915163A66EA00A0A667 /* logo_02.png in Resources */,
+				FAD76916163A66EA00A0A667 /* 安卓（背景）.png in Resources */,
+				FAD76917163A66EA00A0A667 /* 背景2_03.png in Resources */,
+				FAD76918163A66EA00A0A667 /* 背景头部.png in Resources */,
+				FAD76919163A66EA00A0A667 /* 登陆页（背景）.png in Resources */,
+				FAD7691A163A66EA00A0A667 /* 登录_03.png in Resources */,
+				FAD7691B163A66EA00A0A667 /* 退出.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA41BB7F163A313B0079595B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41BB94163A313B0079595B /* main.m in Sources */,
+				FA41BB98163A313B0079595B /* AppDelegate.m in Sources */,
+				FA41BBA4163A313B0079595B /* HomePageViewController.m in Sources */,
+				FAD76922163A72FB00A0A667 /* PhoneBillViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA41BB90163A313B0079595B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA41BB91163A313B0079595B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA41BB9F163A313B0079595B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA41BBA0163A313B0079595B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA41BBB0163A313B0079595B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FA41BBB1163A313B0079595B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA41BBB3163A313B0079595B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fjmobile/fjmobile-Prefix.pch";
+				INFOPLIST_FILE = "fjmobile/fjmobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA41BBB4163A313B0079595B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fjmobile/fjmobile-Prefix.pch";
+				INFOPLIST_FILE = "fjmobile/fjmobile-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA41BB7D163A313B0079595B /* Build configuration list for PBXProject "fjmobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA41BBB0163A313B0079595B /* Debug */,
+				FA41BBB1163A313B0079595B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA41BBB2163A313B0079595B /* Build configuration list for PBXNativeTarget "fjmobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA41BBB3163A313B0079595B /* Debug */,
+				FA41BBB4163A313B0079595B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA41BB7A163A313B0079595B /* Project object */;
+}
